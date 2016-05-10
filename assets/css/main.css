@@ -491,7 +491,7 @@ a:focus, a:hover{
 }
 .full-width:after{
     position: absolute;
-    content: "\f3d8";
+    content: "\f3d0";
     right: 0;
     font-family: 'Ionicons';
     color: #000;
