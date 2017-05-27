@@ -41,7 +41,7 @@ p {
 }
 
 ul li {
-  font-weight: 700;
+  /*font-weight: 700;*/
   margin-bottom: 10px;
 }
 
@@ -445,7 +445,8 @@ ul li {
     border-bottom-color: transparent;
 }
 .nav-tabs>li{
-    width: 33.3333333333%;
+    width: 50%;
+    font-weight: 700;
 }
 .nav-tabs>li>a {
     border-radius: 0;
@@ -569,7 +570,6 @@ a:focus, a:hover{
     border: 1px solid #fff;
 }
 
-
 /*
  * 6.7 Section: Partners
  */
@@ -615,7 +615,7 @@ a:focus, a:hover{
 }
 
 .partner .gold.rectangle {
-  width: 260px;
+  width: 275px;
 }
 
 .partner .silver {
@@ -625,19 +625,24 @@ a:focus, a:hover{
 .partner .silver.square {
   width: 150px;
 }
+
 .partner .silver.rectangle {
   width: 280px;
 }
 
-.partner .partner-box-1 {
+.partner .bronze.square {
+  width: 140px;
+}
+
+.partner .partner-aeisep {
     background: url(../images/partner/aeisep.png) no-repeat center center / contain;
 }
 
-.partner .partner-box-2 {
+.partner .partner-isep {
     background: url(../images/partner/isep.png) no-repeat center center / contain;
 }
 
-.partner .organization-box-1 {
+.partner .organization-neiisep {
     background: url(../images/partner/nei-isep.png) no-repeat center center / contain;
 }
 
@@ -645,41 +650,20 @@ a:focus, a:hover{
     background: url(../images/partner/aeisep.png) no-repeat center center / contain;
 }
 
-.partner .sponsor-box-1 {
-    background: url(../images/partner/thingpink.png) no-repeat center center / contain;
+.partner .sponsor-pixelmatters {
+    background: url(../images/partner/pixelmatters.png) no-repeat center center / contain;
 }
 
-.partner .sponsor-box-2 {
+.partner .sponsor-mindera {
     background: url(../images/partner/mindera.png) no-repeat center center / contain;
 }
 
-.partner .sponsor-box-3 {
-    background: url(../images/partner/critical-manufacturing.png) no-repeat center center / contain;
+.partner .sponsor-talkdesk {
+    background: url(../images/partner/talkdesk.png) no-repeat center center / contain;
 }
 
-.partner .sponsor-box-4 {
-    
-    background: url(../images/partner/sage.png) no-repeat center center / contain;
-}
-
-.partner .sponsor-box-5  {
-  background: url(../images/partner/bold-international.png) no-repeat center center/contain;
-}
-
-.partner .sponsor-box-6  {
-  background: url(../images/partner/wisdom-group.png) no-repeat center center/contain;
-}
-
-.partner .sponsor-box-7  {
-  background: url(../images/partner/farfetch.png) no-repeat center center/contain;
-}
-
-.partner .sponsor-box-8  {
-  background: url(../images/partner/wit-software.png) no-repeat center center/contain;
-}
-
-.partner .sponsor-box-9  {
-  background: url(../images/partner/outlink-software.png) no-repeat center center/contain;
+.partner .sponsor-farfetch {
+    background: url(../images/partner/farfetch.png) no-repeat center center / contain;
 }
 
 /*
@@ -803,4 +787,12 @@ a:focus, a:hover{
 .hidden {
   display: none;
   visibility: hidden;
+}
+
+.text-center {
+    align: text-center;
+}
+
+.paragraph-spacing {
+    padding: 100px 0;
 }
